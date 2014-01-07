@@ -18,6 +18,7 @@ Clone this repository and copy all the service files as root to ```/lib/systemd/
 Then enable the services as root
 
 ```
+# systemctl enable vgaswitcheroo-hibernate.service
 # systemctl enable vgaswitcheroo-suspend.service
 # systemctl enable vgaswitcheroo-resume.service
 # systemctl enable vgaswitcheroo-boot.service
